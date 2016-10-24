@@ -1,0 +1,14 @@
+{
+  "name": "arabco",
+  "homepage": "https://github.com/ah450/arabco",
+  "authors": [
+    "Ahmed H. Ismail <ahm3d.hisham@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "angular-mocks": "^1.5.8"
+  }
+}
