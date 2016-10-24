@@ -1,0 +1,40 @@
+@import "vendor/include-media";
+@import "vendor/material-color-prefixed";
+@import "utility/variables";
+@import 'utility/fonts';
+@import "utility/reset";
+@import "utility/mixins";
+@import "utility/flex";
+
+body {
+    font-family: $proxima-nova-stack;
+    font-weight: $normal-weight;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: $bold-weight;
+}
+
+
+a.active {
+    pointer-events: none;
+    cursor: default;
+}
+
+a.link {
+    display: inline-block;
+    text-decoration: underline;
+    color: $blue;
+    cursor: pointer;
+}
